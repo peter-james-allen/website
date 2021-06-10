@@ -3,7 +3,7 @@ const form = document.getElementById("submitRSVP");
 
 form.addEventListener('submit', e => {
   e.preventDefault()
-  fetch(scriptURL, { method: 'GET', data: new FormData(form),
+  fetch(scriptURL, { method: 'GET', body: new FormData(form),
   headers: {'Access-Control-Allow-Origin': '*'}})
   .then(response => console.log('Success!' + body, response))
   .catch(error => console.error('Error!', error.message))
