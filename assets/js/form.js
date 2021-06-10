@@ -4,7 +4,7 @@ const form = document.getElementById("submitRSVP");
 form.addEventListener('submit', e => {
   e.preventDefault()
   fetch(scriptURL, { method: 'POST', body: new FormData(form),
-  headers: {'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST'}})
+  headers: {'Access-Control-Allow-Origin': '*'}})
   .then(response => console.log('Success!' + body, response))
   .catch(error => console.error('Error!', error.message))
 })
