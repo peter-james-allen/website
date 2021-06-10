@@ -5,6 +5,6 @@ form.addEventListener('submit', e => {
   e.preventDefault()
   fetch(scriptURL, { method: 'POST', body: new FormData(form),
   mode: "no-cors", headers: {"content-type": "multipart/form-data"}})
-  .then(response => console.log('Success!' + body, response))
+  .then(response => console.log('Success!', response))
   .catch(error => console.error('Error!', error.message))
 })
