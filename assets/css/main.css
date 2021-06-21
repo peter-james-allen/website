@@ -8917,3 +8917,13 @@ body.is-menu-visible #menu {
 .all-content {
 	margin-bottom: 75px;
 }
+
+.main-image {
+	width: 100%;
+}
+
+/* @media only screen and (max-width: 560px) {
+	.main-image {
+		width: 560px !important;
+	}
+  } */
