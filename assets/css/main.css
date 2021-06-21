@@ -8927,3 +8927,11 @@ body.is-menu-visible #menu {
 		width: 560px !important;
 	}
   } */
+
+.flowers{
+	width: 75%;
+	background-color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
