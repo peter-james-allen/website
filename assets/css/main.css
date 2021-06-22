@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
 @import url("https://fonts.googleapis.com/css2?family=Spinnaker&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Lobster");
-
+@import url(//db.onlinewebfonts.com/c/c455d94eee43dc4ceeb83c0c0fd0d4c8?family=Segoe+Print);
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -155,7 +155,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Segoe Print";
 		font-size: 1rem;
 		font-weight: 300;
 		line-height: 1.65;
