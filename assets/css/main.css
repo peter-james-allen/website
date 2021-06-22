@@ -8943,7 +8943,7 @@ body.is-menu-visible #menu {
 	transition: opacity 0.75s ease-in-out;
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 650px) {
 	.timeline {
 		width: 100% !important;
 		height: initial;
