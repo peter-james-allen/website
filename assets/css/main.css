@@ -8929,9 +8929,18 @@ body.is-menu-visible #menu {
   } */
 
 .flowers{
-	width: 75%;
+	width: 90%;
 	background-color: white;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.timeline{
+	height: 500px;
+	background-color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
 }
