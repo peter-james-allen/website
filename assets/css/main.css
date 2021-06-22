@@ -8931,19 +8931,21 @@ body.is-menu-visible #menu {
 }
 
 .timeline{
-	height: 500px;
+	/* height: 500px; */
 	background-color: white;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
 	-moz-transition: opacity 0.75s ease-in-out;
 	-webkit-transition: opacity 0.75s ease-in-out;
 	-ms-transition: opacity 0.75s ease-in-out;
 	transition: opacity 0.75s ease-in-out;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 1060px) {
 	.timeline {
 		width: 100% !important;
 		height: initial;
