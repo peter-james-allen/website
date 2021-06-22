@@ -8948,6 +8948,6 @@ body.is-menu-visible #menu {
 @media only screen and (max-width: 1060px) {
 	.timeline {
 		width: 100% !important;
-		height: initial;
+		/* height: initial; */
 	}
   }
